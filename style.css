@@ -50,3 +50,54 @@ main {
   justify-content: space-around;
 
 }
+
+#question {
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  width: 75%;
+
+}
+
+
+h2 {
+
+  flex-basis: 100%;
+
+  text-size: 2em;
+
+}
+
+input {
+
+  flex-basis: 50%;
+
+}
+
+#result {
+
+  display: none;
+
+  margin-top: 0;
+
+  margin-right: auto;
+
+  margin-bottom: 0;
+
+  margin-left: auto;
+
+  width: 250px;
+
+  height: 400px;
+
+  background-repeat: none;
+
+  background-size: cover;
+
+  background-position: center;
+  
+}
